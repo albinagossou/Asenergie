@@ -12,6 +12,7 @@
 
         <title>ASEnergie</title>
     </head>
+    <!-- Google tag (gtag.js) --> 
     <body>
 
         <!--========== SCROLL TOP ==========-->
@@ -135,21 +136,13 @@
                         </span>
                     </div>
                     <div class="menu__content">
-                        <img src="assets/img/djagbl2.jpg" alt="" class="menu__img">
-                        <h3 class="menu__name">Djagblé (Togo)
-                        </h3>
-                        <span class="menu__detail">Système de 2.5kVA avec batteries 24V à 120Ah
-                        </span>
-                        <span class="menu__preci">3 panneaux solaires de 410wc chacun en série
-                        </span>
-                    </div>
-                    <div class="menu__content">
                         <img src="assets/img/Kpalimé.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Kpalimé (Togo)
                         </h3>
-                        <span class="menu__detail">Système de 2.5kVA avec batteries 24V à 120Ah
+                        <span class="menu__detail">Système de 6kVA avec batteries 48V à 400Ah
                         </span>
-                        <span class="menu__preci">3 panneaux solaires de 410wc chacun en série
+                        <span class="menu__preci">14 panneaux solaires de 410wc chacun en série
+
                         </span>
                     </div>
                     <div class="menu__content">
@@ -254,5 +247,12 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-47B4920LJ4"></script>
+        <script> 
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-47B4920LJ4'); 
+        </script>
     </body>
 </html>
